@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.alert {
+  padding: 15px;
+  background: #ffeeba;
+  color: #856404;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+/* Стили для ссылок */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:visited {
+  color: #6f42c1;
+}
+
+a:active {
+  color: #d63384;
+  transform: translateY(1px);
+}
+
+/* Специальные стили для ссылок в разных контекстах */
+.alert a {
+  color: #856404;
+  text-decoration: underline;
+}
+
+.alert a:hover {
+  color: #6c4a03;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #e9ecef;
+  color: #495057;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.button-link:hover {
+  background: #dee2e6;
+  text-decoration: none;
+}
+
+/*chmod -R 755 public/assets/*/

@@ -1,0 +1,36 @@
+{
+  "title": "Mathematics Test",
+  "questions": [
+    {
+      "text": "What is 2 + 2?",
+      "type": "radio",
+      "options": ["3", "4", "5"],
+      "correct": [1]
+    },
+    {
+      "text": "Select prime numbers",
+      "type": "checkbox",
+      "options": ["2", "4", "7"],
+      "correct": [0, 2]
+    },
+    {
+      "text": "Solve: 8 ÷ 2(2 + 2)",
+      "type": "radio",
+      "options": ["16", "1", "8"],
+      "correct": [0]
+    },
+    {
+      "text": "Which numbers are even?",
+      "type": "checkbox",
+      "options": ["3", "6", "14"],
+      "correct": [1, 2]
+    },
+    {
+      "text": "What is √16?",
+      "type": "radio",
+      "options": ["4", "8", "2"],
+      "correct": [0]
+    }
+  ]
+}
+
